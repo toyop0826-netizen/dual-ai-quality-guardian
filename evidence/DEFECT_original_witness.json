@@ -1,0 +1,22 @@
+{
+  "joint_return_verified": true,
+  "manual_override_demo": true,
+  "measured_final_x_mm": -18.13588,
+  "measured_peak_negative_x_mm": -65.94029,
+  "mode": "SIM_ONLY_HUMAN_DEFECT_EXTENDED_MOVEMENT_R2_VIDEO",
+  "motion_path": "/home/ubuntu/pai_demo/pai_ng_maxstroke_r2/ng_maxstroke_r2_20261101T163442Z_1793550882831717730.motion.json",
+  "motion_sha256": "1897a95c916ebf464ebae63b8613a9b2de6e18fb423e801adae31858ca79568e",
+  "no_model_pose_writes": true,
+  "note": "Bounded dynamic observed displacement, not global physical reach proof.",
+  "status": "PASS_BOUNDED_MAX_MEASURED_BELOW_100MM",
+  "target_mm": 100.0,
+  "v4_ai_fusion": "REVIEW",
+  "video_metadata": {
+    "bytes": 1977336,
+    "duration_s": 42.0,
+    "height": 846,
+    "width": 1000
+  },
+  "video_path": "/home/ubuntu/pai_demo/pai_ng_maxstroke_r2/ng_maxstroke_r2_20261101T163442Z_1793550882831717730.mp4",
+  "video_sha256": "a64f3871dbd44a3c8e91256007c5a0855aef766e3109fe2cb20ccc4ecbade30d"
+}

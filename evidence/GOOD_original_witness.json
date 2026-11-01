@@ -1,0 +1,30 @@
+{
+  "automatic_ai_actuation": false,
+  "final_cube_dx_mm": 45.6114,
+  "joint_return_verified": true,
+  "limitations": [
+    "Only joint1 push. No autonomous pick and place or bin drop.",
+    "Static proxy audit does not establish dynamic collision safety."
+  ],
+  "manual_demonstration": true,
+  "mode": "REAL_GAZEBO_SIMULATION_GOOD_R1",
+  "motion_path": "/home/ubuntu/pai_demo/pai_good_maxstroke_r1/good_maxstroke_r1_20261101T170844Z_1793552924326072518.motion.json",
+  "motion_sha256": "14f6e03dd99224ed05d164c611c67c39221ea97ad5bfcfb9f1c57bbeb986ef9b",
+  "peak_cube_dx_mm": 57.9031,
+  "status": "PASS_BOUNDED_MAX_MEASURED_BELOW_100MM",
+  "video_metadata": {
+    "format": {
+      "duration": "58.000000"
+    },
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "height": 846,
+        "width": 1000
+      }
+    ]
+  },
+  "video_path": "/home/ubuntu/pai_demo/pai_good_maxstroke_r1/good_maxstroke_r1_20261101T170844Z_1793552924326072518.mp4",
+  "video_sha256": "6ed14310156f6036fe5f0f2a364b148c3659fd10cc1f4a5d89aa62e99df2eaab"
+}

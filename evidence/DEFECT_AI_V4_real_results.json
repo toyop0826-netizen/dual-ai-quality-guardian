@@ -1,0 +1,50 @@
+{
+  "finished_utc": "2026-11-01T15:54:10.857592+00:00",
+  "fusion": {
+    "decision": "REVIEW",
+    "next_action": "HOLD_UNCERTAIN_OR_DISAGREEMENT_NO_MOTION"
+  },
+  "gazebo_model_pose_writes": 0,
+  "gazebo_server_starts": 0,
+  "human_ground_truth_for_evaluation_only": "DEFECT",
+  "human_ground_truth_sent_to_providers": false,
+  "image_dimensions": [
+    640,
+    480
+  ],
+  "mode": "REAL_TWO_PROVIDER_V4_IMAGE_INFERENCE_NO_ROBOT_CONTROL",
+  "models_requested": {
+    "gemini": "gemini-3.5-flash-lite",
+    "openai": "gpt-4o-mini"
+  },
+  "network_requests": {
+    "gemini_post": 1,
+    "model_get": 2,
+    "openai_post": 1
+  },
+  "ng_movement_observed": false,
+  "providers": {
+    "gemini": {
+      "label": "DEFECT",
+      "model_returned": "gemini-3.5-flash-lite",
+      "raw_output_sha256": "4fa43a95fc68b3d1b2721c7631ccc34024bf15b69a347a8314c0c8efad42dfac",
+      "reason": "キューブの表面にV字型の傷やマークが確認できます",
+      "status": "PASS"
+    },
+    "openai": {
+      "label": "REVIEW",
+      "model_returned": "gpt-4o-mini-2024-07-18",
+      "raw_output_sha256": "38151e91d3d6bcb31ae210bfa614883f17e29cbc9409199afca8908f2058e1c8",
+      "reason": "表面の状態が不明確です。",
+      "response_id": "chatcmpl-EfSAiIKXGV2RFKJ16jVkNS4ctbuon",
+      "status": "PASS"
+    }
+  },
+  "request_prompt_sha256": "7dbcf2357eba04624837592377cdcf217dd84b264a0d2a863f0e88aebf4c5ffd",
+  "robot_commands_sent": 0,
+  "robot_motion_authorized": false,
+  "source_capture_witness_sha256": "8b759da10e573077951c88ef85e37148acba8e720dd5ce160b45c6912c14884b",
+  "source_image_sha256": "655b5472e83cbb58ac42791310f61d0679c17cf279d0a325c687d97a2ad7963e",
+  "source_world_sha256": "81f859680cec05d1f2b599a923fc015a29a0bbff818b264666745378b1d047ab",
+  "started_utc": "2026-11-01T15:54:07.107818+00:00"
+}

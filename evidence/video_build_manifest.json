@@ -1,0 +1,39 @@
+{
+  "ai_defect_v4": [
+    "REVIEW",
+    "DEFECT"
+  ],
+  "ai_good_b67": [
+    "GOOD",
+    "GOOD"
+  ],
+  "automatic_ai_ng_motion": false,
+  "defect_measured_final_mm": -18.13588,
+  "defect_measured_peak_mm": -65.94029,
+  "good_measured_final_mm": 45.6114,
+  "good_measured_peak_mm": 57.9031,
+  "legacy_good_fallback": false,
+  "mode": "EVIDENCE_LINKED_GENUINE_GAZEBO_STORY_EDIT",
+  "output": {
+    "DEFECT_story.mp4": {
+      "bytes": 923015,
+      "duration_sec": 77.0,
+      "sha256": "f453a632a5ce9dedcfd3483fdf2b3cfd3e696c3f2b7a86829abbc860ba1fc187"
+    },
+    "GOOD_story.mp4": {
+      "bytes": 611155,
+      "duration_sec": 77.0,
+      "sha256": "1be0ac75ed4d6956351a0c5acea3290d0cd889238191f46e1783d1a82365d212"
+    },
+    "PAI_final_two_cases_story.mp4": {
+      "bytes": 1594118,
+      "duration_sec": 166.0,
+      "sha256": "3085d42156939af91afa7c2763cfb50ceaceec66410f3b46869f6c914c57c419"
+    }
+  },
+  "robot_pose_writes": 0,
+  "source_good_peak_time_s": 30.704,
+  "source_good_sha256": "6ed14310156f6036fe5f0f2a364b148c3659fd10cc1f4a5d89aa62e99df2eaab",
+  "source_ng_peak_time_s": 30.805,
+  "source_ng_sha256": "a64f3871dbd44a3c8e91256007c5a0855aef766e3109fe2cb20ccc4ecbade30d"
+}
